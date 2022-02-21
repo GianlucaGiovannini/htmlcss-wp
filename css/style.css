@@ -24,20 +24,16 @@ Utility
     margin: 0 auto;
 }
 
-.border-bottom {
-    border-bottom: 1px solid grey;
-}
-
 
 /* 
 Header
 ******************/
 
 
-/* center-header */
+/* header */
 
 .logo {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .logo img {
@@ -80,34 +76,50 @@ main>div {
 }
 
 .site-main {
-    background-color: blue;
-    margin: 1.5rem auto;
+    margin: 3rem auto;
 }
 
 
 /* hero-img */
 
 .hero-img {
-    background-color: purple;
-    width: 100%;
-    height: 500px;
-    border-radius: 1.5rem;
     position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 1.5rem;
 }
 
 .hero-title {
-    background-color: pink;
+    color: white;
     width: 50%;
-    height: 150px;
     padding: 0.5%;
     position: absolute;
-    bottom: 3rem;
-    left: 3rem;
+    bottom: 4.5rem;
+    left: 4rem;
 }
 
 .hero-title>div {
-    background-color: violet;
     height: 49.5%;
+}
+
+.hero-title h1 {
+    font-weight: 400;
+    font-size: 2.75rem;
+}
+
+.hero-title p {
+    font-size: 1.5rem;
+}
+
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: red;
 }
 
 
