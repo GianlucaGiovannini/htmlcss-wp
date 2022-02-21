@@ -1,0 +1,201 @@
+/* 
+Common
+****************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 2.5rem 0;
+}
+
+
+/* 
+Utility
+****************/
+
+ :root {
+    --header-footer-color: #1f1f1f;
+    --register-hover: #051baa;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 
+header
+****************/
+
+.site-header {
+    position: relative;
+    border-bottom: 1px solid var(--header-footer-color);
+}
+
+.logo>img {
+    width: 15rem;
+    float: left;
+    clear: left;
+}
+
+#register {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+}
+
+#register a {
+    color: var(--header-footer-color);
+    padding: 1rem;
+}
+
+#register a:hover {
+    color: var(--register-hover);
+    box-shadow: 1px 1px var(--register-hover);
+}
+
+.nav-bar {
+    position: absolute;
+    bottom: 1rem;
+    left: 20rem;
+}
+
+.nav-bar>div {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.25rem;
+    float: left;
+}
+
+.nav-bar a {
+    color: var(--header-footer-color);
+}
+
+.nav-bar>div:hover a {
+    font-size: 2.2rem;
+    color: var(--register-hover);
+}
+
+
+/* 
+main
+****************/
+
+.hero-img {
+    position: relative;
+}
+
+.hero-img>img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.hero-hover {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.hero-img:hover .hero-hover {
+    visibility: visible;
+}
+
+
+/* site-title */
+
+.site-title {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.site-title h1 {
+    font-size: 3rem;
+}
+
+.site-title p {
+    font-size: 1.5rem;
+    color: var(--register-hover);
+}
+
+.site-title:hover span {
+    color: var(--header-footer-color);
+    font-size: 2rem;
+}
+
+
+/* grid */
+
+.grid img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.invisible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.col-img:hover .invisible {
+    visibility: visible;
+}
+
+.col {
+    text-align: center;
+    width: 25%;
+    margin: 1rem 4%;
+    float: left;
+    position: relative;
+}
+
+.col>h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.col p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.col:hover h2 {
+    color: var(--register-hover);
+}
+
+
+/* 
+footer
+****************/
+
+.site-footer {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--header-footer-color);
+}
+
+.site-footer>p span::before {
+    color: red;
+    content: "\2764";
+}
