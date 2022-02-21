@@ -18,7 +18,7 @@ a {
 }
 
 main {
-    margin: 2.5rem 0;
+    margin: 4rem 0;
 }
 
 
@@ -48,7 +48,7 @@ header
 }
 
 .logo>img {
-    width: 15rem;
+    width: 20rem;
     float: left;
     clear: left;
 }
@@ -73,7 +73,7 @@ header
 .nav-bar {
     position: absolute;
     bottom: 1rem;
-    left: 20rem;
+    left: 22rem;
 }
 
 .nav-bar>div {
