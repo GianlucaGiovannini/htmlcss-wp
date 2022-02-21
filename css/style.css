@@ -24,6 +24,16 @@ Utility
     clear: both;
 }
 
+.layover {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1.5rem;
+}
+
 
 /* 
 Header
@@ -128,24 +138,35 @@ main>div {
 
 /* grid */
 
-.grid {
-    background-color: bisque;
-}
+.grid {}
 
-.row-1 {
-    background-color: cadetblue;
+.row {
     margin-bottom: 0.5rem;
 }
 
-.row-1>.img {
-    background-color: darkslategray;
-    height: 200px;
+.row h3,
+p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.row p {
+    color: #bfbfbf;
+}
+
+.row img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.row>.img {
+    position: relative;
     float: left;
 }
 
-.row-1>.description {
-    background-color: darkgrey;
-    height: 400px;
+.row>.description {
     float: left;
 }
 
