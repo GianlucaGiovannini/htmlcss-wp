@@ -1,0 +1,187 @@
+/* 
+Common
+******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+DEBUG
+******************/
+
+.debug>site-header,
+.debug>site-main,
+.debug>site-footer {
+    background-color: black;
+}
+
+
+/* 
+Utility
+******************/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.border-bottom {
+    border-bottom: 1px solid grey;
+}
+
+
+/* 
+Header
+******************/
+
+.site-header {
+    background-color: black;
+}
+
+
+/* center-header */
+
+.center-header {
+    background-color: lightgreen;
+}
+
+.logo {
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 2rem;
+}
+
+.navigation-bar {
+    background-color: darkgreen;
+}
+
+.navigation-bar>div {
+    background-color: green;
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
+
+/* 
+Main
+******************/
+
+main>div {
+    margin-bottom: 0.5rem;
+}
+
+.site-main {
+    background-color: blue;
+    margin: 1.5rem auto;
+}
+
+
+/* hero-img */
+
+.hero-img {
+    background-color: purple;
+    width: 100%;
+    height: 500px;
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+.hero-title {
+    background-color: pink;
+    width: 50%;
+    height: 150px;
+    padding: 0.5%;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.hero-title>div {
+    background-color: violet;
+    height: 49.5%;
+}
+
+
+/* leadership */
+
+.leadership {
+    background-color: lightblue;
+    height: 125px;
+}
+
+.lead-contain {
+    background-color: lightgrey;
+    width: 300px;
+    height: 125px;
+}
+
+.lead-contain>div {
+    background-color: aliceblue;
+    width: 100%;
+    height: 50%;
+}
+
+
+/* grid */
+
+.grid {
+    background-color: bisque;
+}
+
+.row-1 {
+    background-color: cadetblue;
+    margin-bottom: 0.5rem;
+}
+
+.row-1>.img {
+    background-color: darkslategray;
+    height: 200px;
+    float: left;
+}
+
+.row-1>.description {
+    background-color: darkgrey;
+    height: 400px;
+    float: left;
+}
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 46%;
+    margin: 0 2%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+
+/* 
+Footer
+******************/
+
+.site-footer {
+    background-color: black;
+    height: 100px;
+}
+
+.center-footer {
+    background-color: indigo;
+    height: 100%;
+}
