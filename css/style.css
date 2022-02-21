@@ -189,11 +189,12 @@ Footer
 ******************/
 
 .site-footer {
-    background-color: black;
-    height: 100px;
+    color: #666666;
+    text-align: center;
+    padding: 1.5rem 0;
 }
 
-.center-footer {
-    background-color: indigo;
-    height: 100%;
+.site-footer>p span::before {
+    color: red;
+    content: "\2764";
 }
