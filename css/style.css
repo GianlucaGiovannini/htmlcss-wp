@@ -9,17 +9,6 @@ Common
 }
 
 
-/*
-DEBUG
-******************/
-
-.debug>site-header,
-.debug>site-main,
-.debug>site-footer {
-    background-color: black;
-}
-
-
 /* 
 Utility
 ******************/
@@ -44,34 +33,41 @@ Utility
 Header
 ******************/
 
-.site-header {
-    background-color: black;
-}
-
 
 /* center-header */
 
-.center-header {
-    background-color: lightgreen;
-}
-
 .logo {
-    background-color: green;
-    width: 200px;
-    height: 60px;
     margin-bottom: 2rem;
 }
 
-.navigation-bar {
-    background-color: darkgreen;
+.logo img {
+    width: 13rem;
+    padding-right: 1rem;
+    margin-top: 0.75rem;
+    border-right: 1px solid #e5e5e5;
 }
 
 .navigation-bar>div {
-    background-color: green;
     float: left;
-    width: 100px;
-    height: 40px;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+}
+
+.navigation-bar a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.navigation-bar a:visited {
+    color: #bfbfbf;
+}
+
+.navigation-bar a:hover {
+    color: lightpink;
+}
+
+.navigation-bar a:active {
+    color: lightblue;
 }
 
 
